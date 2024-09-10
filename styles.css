@@ -1,62 +1,58 @@
 html 
-{background-color: aquamarine;}
+{background-color: aquamarine;
+}
 
 header
-{display: flex;
-justify-content: center;
-margin-bottom: 16px;
-text-align: center;
+{display:flexbox;
+    justify-content: center;
+text-align:center;
+margin: 16px;
 padding: 10px;
 background-color: darkblue;
 color:greenyellow; font-size: x-large; font-family: cursive;
-
 }
 
 .img 
 {display: flex;
     justify-content: center;
-    margin: 16px 16px 16px 16px;
+    width: 300;
+    height: 500;
     gap: 16px;
     background-color: darkblue;
 }
 
 
 body
-.contenedor1
-{display: flex;
-justify-content: center;
-}
+div 
+{justify-content: center;
+    text-align: center;
+} 
+
 input[type="text"]
-{margin-bottom: 16px;
-padding: 12px;
+{margin: 16px;
+padding: 20px;
 border-radius: 5px;
 }
 
-.contenedor2
-{display: flex;
-justify-content: center;
-}
 button
-{display: flex;
-justify-content: center;
+{justify-content:center;
 margin: 16px 16px 16px 16px;
-padding: 10px 10px 10px 10px;
-background-color: bisque;
+padding: 8px 8px 8px 8px;
+font-size:medium; 
+font-family: cursive; 
+background-color:chartreuse;
 color:black;
 border-radius: 5px;
-cursor: pointer;
+cursor:auto;
 }
 
-.contenedor3
-{display: flex;
-justify-content:center;
-padding-top: 5px;
-color:darkblue;
-font-family:cursive;
-font-size:larger;
+ul{
+    list-style-type: none;
+    font-size: x-large;
 }
-ul
-{display: flex;
-justify-content:center;
-flex-direction: column;
+
+.movelist{
+    display: flex;
+    align-items: center;
+    
 }
